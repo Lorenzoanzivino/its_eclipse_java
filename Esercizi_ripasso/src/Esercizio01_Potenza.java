@@ -1,6 +1,6 @@
 import java.util.Scanner; // Importiamo lo strumento per leggere da tastiera
 
-public class Main {
+public class Esercizio01_Potenza {
 
 	public static void main(String[] args) {
 
