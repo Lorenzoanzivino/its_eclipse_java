@@ -59,3 +59,30 @@ git add .
 git commit -m "Aggiunto file README con istruzioni"
 git push
 ```
+
+---
+
+## 📝 Tutorial: Come creare un nuovo Esercizio
+Segui questa procedura standard per ogni nuovo lavoro:
+
+### 1. Crea il Progetto
+1. Vai su **File** > **New** > **Java Project**.
+2. Scegli un nome ordinato (es. `Esercizio02_Nome`).
+3. ⚠️ **IMPORTANTE:** In basso, sotto "Module", **TOGLI LA SPUNTA** da `Create module-info.java`.
+4. Clicca **Finish**.
+
+### 2. Crea la Classe
+1. Apri la cartella del nuovo progetto.
+2. Tasto destro sulla cartella **src** > **New** > **Class**.
+3. Nome classe: `Main`.
+4. ✅ Metti la spunta su: `public static void main(String[] args)`.
+5. Clicca **Finish**.
+
+### 3. Salva su GitHub
+A fine lavoro, apri il terminale (o usa quello di Eclipse) e dai questi comandi:
+
+```bash
+cd ~/its_eclipse_java
+git add .
+git commit -m "Aggiunto Esercizio XX"
+git push
