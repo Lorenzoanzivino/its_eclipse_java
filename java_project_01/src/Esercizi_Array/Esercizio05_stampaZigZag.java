@@ -1,4 +1,4 @@
-package Array;
+package Esercizi_Array;
 
 public class Esercizio05_stampaZigZag {
 

@@ -1,3 +1,5 @@
+package Esercizi_ripasso;
+
 import java.util.Scanner; // Importiamo lo strumento per leggere da tastiera
 
 public class Esercizio01_Potenza {

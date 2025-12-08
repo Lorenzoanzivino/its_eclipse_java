@@ -1,4 +1,4 @@
-package base;
+package corsoBase;
 
 import java.util.Scanner;
 

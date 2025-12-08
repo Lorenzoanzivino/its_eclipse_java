@@ -1,4 +1,4 @@
-package base;
+package corsoBase;
 
 public class Esempio_Array {
 

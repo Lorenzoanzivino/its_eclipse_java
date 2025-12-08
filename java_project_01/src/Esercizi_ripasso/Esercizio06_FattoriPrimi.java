@@ -1,3 +1,5 @@
+package Esercizi_ripasso;
+
 import java.util.Scanner;
 
 public class Esercizio06_FattoriPrimi {
