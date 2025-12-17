@@ -1,8 +1,8 @@
-package Esercizi_Ereditarieta.Azienda;
+package Esercizi_Ereditarieta;
 
 import java.util.Date;
 
-public class Impiegato {
+public class Impiegato implements Comparable<Impiegato> {
 
 	private String nome;
 	private double salario;
@@ -42,6 +42,12 @@ public class Impiegato {
 
 	public void incrSalario(double aumento) {
 		this.salario += aumento;
+	}
+
+	@Override
+	public int compareTo(Impiegato o) {
+		// Criterio che induce l'ordinamento crescente per nome
+		return this.nome.compareTo(o.nome);
 	}
 
 }

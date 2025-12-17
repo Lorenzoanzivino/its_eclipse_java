@@ -1,4 +1,4 @@
-package Esercizi_Ereditarieta.Azienda;
+package Esercizi_Ereditarieta;
 
 import java.util.ArrayList;
 
